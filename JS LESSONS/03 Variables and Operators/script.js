@@ -19,6 +19,8 @@ title="Supervisor";
 console.log(title);
  */
 
+/**
+ * Variables
 let myString="Tharindu Madushanka";
 
 let myNumber =25;
@@ -40,3 +42,12 @@ console.log("Test");
 }
 
 console.log(myObj);
+
+console.log(typeof myObj);
+console.log(typeof myFunction);
+console.log(typeof 5.745);
+ */
+
+
+//Operations
+
