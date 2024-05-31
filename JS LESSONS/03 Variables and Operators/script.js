@@ -51,3 +51,36 @@ console.log(typeof 5.745);
 
 //Operations
 
+let a=10;
+let b=15;
+
+let c=a+b;
+console.log(c);
+
+let d=b-a;
+let e=a*b;
+let f=a/b;
+let g=b%10;
+a++;
+b--;
+
+let fName ="Tharindu";
+let lNmae="Dilshan";
+let fullName=fName+lNmae;
+
+//Comparison Operations
+
+let val1=10;
+let val2=20;
+
+//Eqaul
+console.log(val1==val2);
+
+//Not Eqaul
+console.log(val1!=val2);
+console.log(val1>val2);
+console.log(val1<val2);
+console.log(val1>=val2);
+console.log(val1<=val2);
+
+console.log(val1===val2);
