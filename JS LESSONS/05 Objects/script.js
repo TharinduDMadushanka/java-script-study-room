@@ -8,6 +8,7 @@ let student ={
 }
 
 student.sayHi();
+
 console.log(student.name);
 console.log(student.age);
 
@@ -21,3 +22,13 @@ student.sayHello();
 
 student.address="Galle";
 console.log(student.address);
+
+console.log(student);
+
+console.error(student);
+
+// delete properties
+
+console.log(student.age);
+delete student.age;
+console.log(student.age);
