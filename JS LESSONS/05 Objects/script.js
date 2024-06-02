@@ -8,3 +8,8 @@ let student ={
 }
 
 student.sayHi();
+console.log(student.name);
+console.log(student.age);
+
+student.age = 20;
+console.log(student.age);
