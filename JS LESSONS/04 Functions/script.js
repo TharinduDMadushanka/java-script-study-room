@@ -18,4 +18,5 @@ function displayName(fName,lName){
 }
 
 displayName("Tharindu","Madushanka");
-
+displayName("Dilshan","Madushanka");
+displayName("Shankar","Madushanka");
