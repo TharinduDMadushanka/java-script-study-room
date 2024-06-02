@@ -4,6 +4,10 @@ let student ={
 
     sayHi : function(){ // methods
         console.log("Say hii");
+    },
+
+    info : function(){
+        console.log("My name is "+this.name);
     }
 }
 
@@ -27,8 +31,22 @@ console.log(student);
 
 console.error(student);
 
+let student2={
+    name:"Kumar"
+}
+
 // delete properties
 
 console.log(student.age);
 delete student.age;
 console.log(student.age);
+
+student.info();
+
+// common object methods
+console.log(Object.keys(student));
+console.log(Object.values(student));
+console.log(Object.entries(student));
+
+Object.assign(student2,student)
+console.log(student2);
