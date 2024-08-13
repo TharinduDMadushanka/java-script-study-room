@@ -1,27 +1,27 @@
 // String
-let a = 'Tharindu';
+// let a = 'Tharindu';
 
-// Integer 
-let b = 23;
+// // Integer 
+// let b = 23;
 
-// Boolean
-let c = false;
+// // Boolean
+// let c = false;
 
-// Big Int 
-let d = 234n;
+// // Big Int 
+// let d = 234n;
 
-// undefined
-let e;
+// // undefined
+// let e;
 
-// Null 
-let f = null;
+// // Null 
+// let f = null;
 
-console.log(typeof (a))
-console.log(typeof (b))
-console.log(typeof (c))
-console.log(typeof (d))
-console.log(typeof (e))
-console.log(typeof (f))
+// console.log(typeof (a))
+// console.log(typeof (b))
+// console.log(typeof (c))
+// console.log(typeof (d))
+// console.log(typeof (e))
+// console.log(typeof (f))
 
 // ===================== Type Conversion ===========================
 
@@ -45,16 +45,26 @@ console.log(typeof (f))
 
 // Number Conversion
 
-console.log(Number (a))
-console.log(Number (b))
-console.log(Number (c))
-console.log(Number (d))
-console.log(Number (e))
-console.log(Number (f))
+// console.log(Number (a))
+// console.log(Number (b))
+// console.log(Number (c))
+// console.log(Number (d))
+// console.log(Number (e))
+// console.log(Number (f))
 
 // * we can also use parseInt
-console.log(parseInt (a))
+// console.log(parseInt (a))
 
-let g = '121bgsg';
-console.log(Number (g)); //NaN
-console.log(parseInt (g)); // 121
+// let g = '121bgsg';
+// console.log(Number (g)); //NaN
+// console.log(parseInt (g)); // 121
+
+// ===================== UNARY ===========================
+
+// let a = +2;
+// console.log(a);
+
+// ===================== BINArY ===========================
+
+// let a =3 +2;
+// console.log(a);
