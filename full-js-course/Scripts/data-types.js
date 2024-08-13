@@ -72,11 +72,25 @@
 
 // ===================== Back Tick (`) ===========================
 
-let a = `Tharindu Madushanka`;
-console.log(a)
+// let a = `Tharindu Madushanka`;
+// console.log(a)
 
-let age = 22;
+// let age = 22;
 
-console.log("Your name is "+ a + "and age is "+ age);
+// console.log("Your name is "+ a + " and age is "+ age);
 
-console.log(`Your name is ${a} and age is ${age}`)
+// console.log(`Your name is ${a} and age is ${age}`)
+
+// ===================== var , let & const ===========================
+
+var yname = "TDM SHANKAR";
+console.log(yname);
+
+var yname = "TDM SHANKAR"; //ok
+console.log(yname);
+
+let yname = "TDM SHANKAR"; //error
+console.log(yname);
+
+// const yname = "TDM SHANKAR";
+// console.log(yname);
