@@ -68,3 +68,15 @@
 
 // let a =3 +2;
 // console.log(a);
+
+
+// ===================== Back Tick (`) ===========================
+
+let a = `Tharindu Madushanka`;
+console.log(a)
+
+let age = 22;
+
+console.log("Your name is "+ a + "and age is "+ age);
+
+console.log(`Your name is ${a} and age is ${age}`)
