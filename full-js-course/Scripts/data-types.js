@@ -89,8 +89,15 @@ console.log(yname);
 var yname = "TDM SHANKAR"; //ok
 console.log(yname);
 
-let yname = "TDM SHANKAR"; //error
-console.log(yname);
-
-// const yname = "TDM SHANKAR";
+// let yname = "TDM SHANKAR"; //error
 // console.log(yname);
+
+// const name = "TDM SHANKAR";
+// console.log(yname);
+
+// const name = "TDM SHANKAR";
+// console.log(yname);
+
+let a,b,c =20;
+a=b=c =20;
+console.log(a,b,c)
