@@ -98,6 +98,17 @@ console.log(yname);
 // const name = "TDM SHANKAR";
 // console.log(yname);
 
-let a,b,c =20;
-a=b=c =20;
-console.log(a,b,c)
+// let a,b,c =20;
+// a=b=c =20;
+// console.log(a,b,c)
+
+let a = "TDM SHANKAR";
+console.log(a[1])
+console.log(a.substring(1,6))
+console.log(a.split(' '))
+console.log(a.split('H'))
+console.log(a.lastIndexOf('A'))
+console.log(a.charAt(5))
+console.log(a.endsWith(9))
+console.log(a.endsWith('AR'))
+console.log(a.replace('TDM','MADU'))
