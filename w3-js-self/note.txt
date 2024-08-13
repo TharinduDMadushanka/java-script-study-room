@@ -14,3 +14,17 @@
     - JavaScript does not have any print object or print methods.
     - You cannot access output devices from JavaScript.
     - can call the window.print() method
+
+~ JavaScript Variables ~
+
+-JavaScript Variables can be declared in 4 ways:
+    - Automatically
+    - Using var
+    - Using let
+    - Using const
+
+- The var keyword was used in all JavaScript code from 1995 to 2015.
+
+- The let and const keywords were added to JavaScript in 2015.
+
+- The var keyword should only be used in code written for older browsers.
