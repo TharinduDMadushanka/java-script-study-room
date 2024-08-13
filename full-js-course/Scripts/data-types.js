@@ -112,3 +112,6 @@ console.log(a.charAt(5))
 console.log(a.endsWith(9))
 console.log(a.endsWith('AR'))
 console.log(a.replace('TDM','MADU'))
+
+let z = "Tharindu Madushanka";
+console.log(z.length);
