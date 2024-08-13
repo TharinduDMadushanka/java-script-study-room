@@ -5,7 +5,7 @@ let a = 'Tharindu';
 let b = 23;
 
 // Boolean
-let c = true;
+let c = false;
 
 // Big Int 
 let d = 234n;
@@ -51,3 +51,10 @@ console.log(Number (c))
 console.log(Number (d))
 console.log(Number (e))
 console.log(Number (f))
+
+// * we can also use parseInt
+console.log(parseInt (a))
+
+let g = '121bgsg';
+console.log(Number (g)); //NaN
+console.log(parseInt (g)); // 121
