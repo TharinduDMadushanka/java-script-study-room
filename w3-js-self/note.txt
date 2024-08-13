@@ -1,0 +1,16 @@
+~ JavaScript Output ~
+
+- JavaScript can "display" data in different ways:
+    - Writing into an HTML element, using innerHTML.use the document.getElementById(id) method.
+    - Writing into the HTML output using document.write().
+    - Writing into an alert box, using window.alert().
+    - Writing into the browser console, using console.log().
+- Using document.write() after an HTML document is loaded, will delete all existing HTML:
+- The document.write() method should only be used for testing.
+
+
+~ JavaScript Print ~
+
+    - JavaScript does not have any print object or print methods.
+    - You cannot access output devices from JavaScript.
+    - can call the window.print() method
