@@ -32,4 +32,6 @@ let c = {
 
 // console.log(a,b,c);
 
-console.log({a,b,c});
+// console.log({a,b,c});
+
+console.table({a,b,c});
