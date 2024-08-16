@@ -29,3 +29,44 @@ while(a<5){
     }
     a++;
 }
+
+// loopings
+
+let b = [12,'Tharindu',3.5,true,'tdm','hello']
+
+for(let i=0; i<b.length;i++){
+    console.log(b[i]);
+}
+
+//for - each loop
+
+b.forEach((el) =>{
+    console.log(el);
+})
+
+// for get index
+
+b.forEach((el,index) =>{
+    console.log(el,index);
+})
+
+// for get arra again also
+
+b.forEach((el,index,arr) =>{
+    console.log(el,index,arr);
+})
+
+b.map((el)=>{
+    return [el]
+})
+
+console.log(b.map((el)=>{
+    return [el]
+}));
+
+let result = b.map((el)=>{
+    return [el]
+})
+
+console.log(result)
+console.log(result[0][1])
