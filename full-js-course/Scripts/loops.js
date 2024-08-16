@@ -70,3 +70,17 @@ let result = b.map((el)=>{
 
 console.log(result)
 console.log(result[0][1])
+
+// for loop for array fot getting index 
+
+for (index in b){
+    // console.log(index);
+    console.log(b[index]);
+}
+
+//filter
+
+let c= [1,2,3,4,5,6,7];
+
+let filterResult = c.filter(el=> el %2==1);
+console.log(filterResult);
